@@ -1,5 +1,14 @@
+function scrollToSection(sectionId) {
+  const navbarHeight = document.querySelector('.navbar').offsetHeight;
+  const section = document.getElementById(sectionId);
+  if (section) {
+      const offsetTop = section.offsetTop - navbarHeight;
+      window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+  }
+}
+
 //Swiper js
-var swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     // grabCursor: true,
     autoplay: {
