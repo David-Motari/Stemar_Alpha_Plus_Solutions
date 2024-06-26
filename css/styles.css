@@ -854,7 +854,7 @@ footer {
         margin: 0;
     }
     .team-quote{
-        font-size: 2rem;
+        font-size: 1rem;
         padding: 0;
         margin: 0;
     }
@@ -865,13 +865,13 @@ footer {
     
     }
     .team-personDetails .name {
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: bolder;
         margin: 0;
         padding: 0;
     }
     .team-personDetails .job {
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
         padding: 0;
         margin: 0;
