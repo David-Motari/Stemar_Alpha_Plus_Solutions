@@ -849,6 +849,33 @@ footer {
         grid-template-columns: 1fr;
         row-gap: 3rem;
     }
+    .team h2 {
+        padding: 0;
+        margin: 0;
+    }
+    .team-quote{
+        font-size: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+    .team-icon {
+        font-size: 1.5rem;
+        padding: 0;
+        margin: 0;
+    
+    }
+    .team-personDetails .name {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 0;
+        padding: 0;
+    }
+    .team-personDetails .job {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+    }
     .footer-container{
         row-gap: 1.5rem;
     }
