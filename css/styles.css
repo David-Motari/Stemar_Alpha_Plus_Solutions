@@ -200,7 +200,7 @@ img{
 .nav-link,
 .phone-icon,
 .phone-number{
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 .phone-number,
 .logo-text,
@@ -321,7 +321,10 @@ img{
     .navOpen-btn{
         font-size: 2rem;
         cursor: pointer;
-        color: var(--white-color);
+        color: var(--primary-color);
+    }
+    .navOpen-btn:hover {
+        color: rgb(232, 105, 35);
     }
     .header-active .navOpen-btn{
         color: var(--text-color);
@@ -348,7 +351,6 @@ img{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
     z-index: var(--z-overlay);
 }
 /*slide btns*/
@@ -467,6 +469,12 @@ img{
 .services h2 {
     font-size: 4rem;
     font-weight: bolder;
+}
+.services h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem;
 }
 
 .gallery {
@@ -670,12 +678,14 @@ footer {
   
   .footer-links li,
   .social-icons li {
-    color: var(--tertiary-color);
     text-decoration: none;
     transition: color 0.3s;
     padding-bottom: 1rem;
     font-size: 2rem;
     font-weight: bold;
+  }
+  .footer-links li{
+    color: var(--white-color);
   }
   
   .footer-links li:hover,
